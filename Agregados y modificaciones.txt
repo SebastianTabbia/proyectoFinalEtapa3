@@ -1,0 +1,21 @@
+Lista de cambios y agregados
+
+Cambios en general,
+1)se arma el nuevo archivo con Sass
+
+2)Se divide por Páginas (Index, remeras,contacto,envios,tazas) y por Secciones (nav, footer,variables)
+ 
+3)Se agrega @Media  a todas las secciones
+
+4)Se agrega Extend (h1,h2,h3 y P)
+
+5)Se agrega mixin
+
+
+<<<<<<<<<<<<<<<<<<<INDEX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1)Se agrega etiqueta meta name "keywords"
+palabras sublime cosas, sublimación, remeras,tazas, envios,contactos.
+
+2)Se agrega etiqueta meta name "description"
+" pagína de sublimación de objetos, podras sublimar remeras,tazas, gorras,etc."

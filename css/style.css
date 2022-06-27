@@ -213,3 +213,29 @@
     font-size: 35px; }
   .segundaSeccion h3 {
     font-size: 30px; }
+
+.grilla2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 1fr 0fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
+
+.primeraSeccion2 {
+  grid-area: primeraSeccion2;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+  .primeraSeccion2 section {
+    display: flex;
+    flex-direction: row; }
+  .primeraSeccion2 div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border: solid 4px;
+    border-radius: 4px;
+    margin: 30px; }

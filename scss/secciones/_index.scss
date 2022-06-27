@@ -58,3 +58,37 @@
         @extend %estilop;
     }
 }
+
+@media (max-width:768px) {
+    .primeraSeccion div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+}
+}
+
+@media (max-width:425px) {
+    div {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        @extend %estiloh1;
+        font-size: 25px;
+    }
+
+    h3 {
+        @extend %estiloh1;
+        font-size: 20px;
+    }
+
+    p {
+        @extend %estilop;
+    }
+
+
+
+}

@@ -19,3 +19,12 @@ palabras sublime cosas, sublimación, remeras,tazas, envios,contactos.
 
 2)Se agrega etiqueta meta name "description"
 " pagína de sublimación de objetos, podras sublimar remeras,tazas, gorras,etc."
+
+
+<<<<<<<<<<<<<<<<<<<REMERAS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1)Se agrega etiqueta meta name "keywords"
+palabras sublime cosas, sublimación, remeras,tazas, envios,contactos.
+
+2)Se agrega etiqueta meta name "description"
+" pagína de sublimación de objetos, podras sublimar remeras,tazas, gorras,etc."

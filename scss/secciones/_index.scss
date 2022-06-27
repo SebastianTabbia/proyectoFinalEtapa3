@@ -11,27 +11,27 @@
         "footer footer footer footer";
 }
 
-.primeraSeccion{
+.primeraSeccion {
     grid-area: primeraSeccion;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-    h1{
+    h1 {
         @extend %estiloh1;
     }
 
-    div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
     }
 }
 
-.segundaSeccion{
+.segundaSeccion {
     grid-area: segundaSeccion;
     display: flex;
     flex-direction: column;
@@ -39,5 +39,22 @@
     align-items: center;
     align-content: center;
 
-    
+    div {
+        max-width: 55%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        @extend %estiloh1;
+        font-size: 35px;
+    }
+
+    h3 {
+        @extend %estiloh1;
+        font-size: 30px;
+    }
+
+    p {
+        @extend %estilop;
+    }
 }

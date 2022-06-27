@@ -1,0 +1,20 @@
+@mixin btn-sumarAlCarrito($colorFondo, $colorLetra) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color:grey;
+    background-color: $colorFondo;
+    color: $colorLetra;
+}
+
+@mixin btn-hover($colorFondo, $colorLetra){
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color:grey;
+    background-color: $colorFondo;
+    color: $colorLetra;
+    font-size: 15px;
+}

@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+@import'./variables/mixins';
 @import'./variables/extend';
 @import'./secciones/nav';
 @import'./secciones/footer';
 @import'./secciones/index';
-@import'./variables/mixins';
 @import'./secciones/remeras';

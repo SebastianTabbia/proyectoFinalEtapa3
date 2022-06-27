@@ -3,9 +3,10 @@
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 8px;
-    border-color:grey;
+    border-color:rgb(211, 206, 206);
     background-color: $colorFondo;
     color: $colorLetra;
+    width: 90%;
 }
 
 @mixin btn-hover($colorFondo, $colorLetra){
@@ -13,7 +14,7 @@
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 8px;
-    border-color:grey;
+    border-color:rgb(255, 255, 255);
     background-color: $colorFondo;
     color: $colorLetra;
     font-size: 15px;

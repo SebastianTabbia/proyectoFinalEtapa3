@@ -36,7 +36,7 @@ palabras "sublime cosas, sublimación, remeras,logos,spum,spum premium"
 <<<<<<<<<<<<<<<<<<<TAZAS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 1)Se agrega etiqueta meta name "keywords"
-palabras "sublime cosas, sublimación, remeras,logos,spum,spum premium"
+palabras "sublime cosas, sublimación, tazas,logos,importada,magica,glitter"
 
 2)Se agrega etiqueta meta name "description"
 " Podrás eligir entre una variedad de telas para realizar tus diseños preferidos."

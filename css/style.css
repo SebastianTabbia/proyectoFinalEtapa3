@@ -238,23 +238,53 @@
     align-items: center;
     border: solid 4px;
     border-radius: 4px;
-    margin: 30px; }
+    margin: 30px;
+    background-color: black; }
   .primeraSeccion2 input {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 8px;
-    border-color: grey;
+    border-color: #d3cece;
     background-color: grey;
-    color: black; }
+    color: black;
+    width: 90%; }
   .primeraSeccion2 input:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 8px;
-    border-color: grey;
+    border-color: white;
     background-color: green;
     color: white;
     font-size: 15px; }
   .primeraSeccion2 span {
-    margin: 10px; }
+    margin: 10px;
+    width: 90%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: bold;
+    border: solid 1px;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px; }
+  .primeraSeccion2 span:hover {
+    margin: 10px;
+    width: 90%;
+    background-color: rgba(192, 188, 188, 0.185);
+    color: white;
+    text-align: center;
+    font-size: bold;
+    border: solid 3px;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px; }
+
+.grilla3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 0fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }

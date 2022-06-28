@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-.segundaSeccion h2 {
+.segundaSeccion h2, .segundaSeccion4 h2 {
   font-size: 35px;
   font-style: bold;
   align-items: center;
@@ -20,11 +20,12 @@
   margin-top: 30px;
   text-align: center; }
 
-.segundaSeccion p {
+.segundaSeccion p, .segundaSeccion4 p {
   text-align: justify;
   margin-top: 20px; }
 
-.primeraSeccion h1, .primeraSeccion4 h1 {
+.primeraSeccion h1, .primeraSeccion2 h1, .primeraSeccion4 h1 {
+  display: flex;
   font-size: 40px;
   font-style: bold;
   align-items: center;
@@ -201,10 +202,7 @@
   grid-template-rows: 0fr 1fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header"
- "primeraSeccion primeraSeccion primeraSeccion primeraSeccion"
- "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "primeraSeccion primeraSeccion primeraSeccion primeraSeccion" "segundaSeccion segundaSeccion segundaSeccion segundaSeccion" "footer footer footer footer"; }
 
 .primeraSeccion {
   grid-area: primeraSeccion;
@@ -249,14 +247,14 @@
   grid-template-rows: 0fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header"
- "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
 
 .primeraSeccion2 {
   grid-area: primeraSeccion2;
   display: flex;
   flex-direction: column; }
+  .primeraSeccion2 h1 {
+    align-items: center; }
   .primeraSeccion2 section {
     display: flex;
     flex-direction: row;
@@ -326,9 +324,7 @@
   grid-template-rows: 0fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header"
- "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
 
 .grilla4 {
   display: grid;
@@ -336,22 +332,33 @@
   grid-template-rows: 0fr 1fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header"
- "primeraSeccion4 primeraSeccion4 primeraSeccion4 primeraSeccion4"
- "segundaSeccion4 segundaSeccion4 segundaSeccion4 segundaSeccion4"
- "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "primeraSeccion4 primeraSeccion4 primeraSeccion4 primeraSeccion4" "segundaSeccion4 segundaSeccion4 segundaSeccion4 segundaSeccion4" "footer footer footer footer"; }
 
 .primeraSeccion4 {
   grid-area: primeraSeccion4;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("https://res.cloudinary.com/daieukhdg/image/upload/v1656081426/Proyecto%20Sublime/sublime_zrsqwi.png"); }
   .primeraSeccion4 .container {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: solid 4px;
-    border-radius: 4px; }
+    border-radius: 20px;
+    border-color: blue;
+    background-color: rgba(255, 255, 255, 0.699); }
   .primeraSeccion4 h1 {
-    text-align: center; }
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
   .primeraSeccion4 div {
     display: flex;
     flex-direction: row;
@@ -360,4 +367,68 @@
     padding: 5px;
     margin: 10px;
     border: solid 2px;
+    border-color: blue;
+    border-radius: 8px;
+    color: black; }
+  .primeraSeccion4 .formulario {
+    height: 200px;
+    width: 92%;
+    border-radius: 8px;
+    border: solid 2px;
     border-color: blue; }
+  .primeraSeccion4 .boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: #d3cece;
+    background-color: grey;
+    color: black;
+    width: 90%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .primeraSeccion4 .boton:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+.segundaSeccion4 {
+  grid-area: segundaSeccion4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/daieukhdg/image/upload/v1656081426/Proyecto%20Sublime/sublime_zrsqwi.png"); }
+  .segundaSeccion4 h2 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .segundaSeccion4 p {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 4px;
+    border-color: blue;
+    text-align: center;
+    font-size: 20px; }
+  .segundaSeccion4 img {
+    max-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px; }

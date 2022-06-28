@@ -2,18 +2,35 @@
   margin: 0;
   padding: 0; }
 
-.primeraSeccion h1, .segundaSeccion h2, .segundaSeccion h3 {
-  display: flex;
+.segundaSeccion h2 {
+  font-size: 35px;
+  font-style: bold;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
-  font-weight: bold;
   margin-bottom: 30px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-align: center; }
+
+.segundaSeccion h3 {
+  font-size: 30px;
+  font-style: bold;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center; }
 
 .segundaSeccion p {
   text-align: justify;
   margin-top: 20px; }
+
+.primeraSeccion h1 {
+  font-size: 40px;
+  font-style: bold;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 /* ---------NAV------ */
 .nav {
@@ -41,14 +58,14 @@
     list-style: none;
     margin: 15px; }
   .nav li:hover {
-    background-color: white;
+    background-color: blue;
     border-radius: 4px; }
   .nav a {
     color: white;
     text-transform: uppercase;
     text-decoration: none; }
   .nav a:hover {
-    color: black;
+    color: white;
     font-weight: 900px; }
 
 @media (max-width: 1024px) {
@@ -84,14 +101,14 @@
     margin: 5px;
     font-size: 14px; }
   .nav li:hover {
-    background-color: white;
+    background-color: blue;
     border-radius: 4px; }
   .nav a {
     color: white;
     text-transform: uppercase;
     text-decoration: none; }
   .nav a:hover {
-    color: black;
+    color: white;
     font-weight: 900px; } }
 
 @media (max-width: 425px) {
@@ -113,14 +130,14 @@
     margin: 5px;
     font-size: 12px; }
   .nav li:hover {
-    background-color: white;
+    background-color: blue;
     border-radius: 4px; }
   .nav a {
     color: white;
     text-transform: uppercase;
     text-decoration: none; }
   .nav a:hover {
-    color: black;
+    color: white;
     font-weight: 900px; } }
 
 @media (max-width: 375px) {
@@ -142,14 +159,14 @@
     margin: 5px;
     font-size: 10px; }
   .nav li:hover {
-    background-color: white;
+    background-color: blue;
     border-radius: 4px; }
   .nav a {
     color: white;
     text-transform: uppercase;
     text-decoration: none; }
   .nav a:hover {
-    color: black;
+    color: white;
     font-weight: 900px; } }
 
 .footer {
@@ -171,7 +188,7 @@
     margin: 20px; }
   .footer i:hover {
     color: #0025f5;
-    font-size: 50px;
+    font-size: 35px;
     margin: 20px; }
   .footer h4 {
     color: white;
@@ -209,10 +226,6 @@
   .segundaSeccion div {
     max-width: 55%;
     margin: 0 auto; }
-  .segundaSeccion h2 {
-    font-size: 35px; }
-  .segundaSeccion h3 {
-    font-size: 30px; }
 
 @media (max-width: 768px) {
   .primeraSeccion div {
@@ -221,6 +234,11 @@
     flex-wrap: nowrap;
     align-content: center;
     align-items: center; } }
+
+@media (max-width: 425px) {
+  div {
+    max-width: 70%;
+    margin: 0 auto; } }
 
 .grilla2 {
   display: grid;
@@ -263,7 +281,7 @@
     padding: 5px;
     border-radius: 8px;
     border-color: white;
-    background-color: green;
+    background-color: blue;
     color: white;
     font-size: 15px; }
   .primeraSeccion2 span {
@@ -288,6 +306,14 @@
     border-color: white;
     padding: 5px;
     border-radius: 4px; }
+
+@media (max-width: 768px) {
+  .primeraSeccion2 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center; } }
 
 .grilla3 {
   display: grid;

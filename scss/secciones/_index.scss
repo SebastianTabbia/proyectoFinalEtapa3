@@ -18,16 +18,16 @@
     justify-content: space-around;
     align-items: center;
 
-    h1 {
-        @extend %estiloh1;
-    }
-
     div {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         align-content: center;
         align-items: center;
+    }
+
+    h1{
+        @extend %estiloh1;
     }
 }
 
@@ -44,18 +44,16 @@
         margin: 0 auto;
     }
 
-    h2 {
-        @extend %estiloh1;
-        font-size: 35px;
-    }
-
-    h3 {
-        @extend %estiloh1;
-        font-size: 30px;
-    }
-
     p {
         @extend %estilop;
+    }
+
+    h2{
+        @extend %estiloh2;
+    }
+
+    h3{
+        @extend %estiloh3;
     }
 }
 
@@ -74,21 +72,4 @@
         max-width: 70%;
         margin: 0 auto;
     }
-
-    h2 {
-        @extend %estiloh1;
-        font-size: 25px;
-    }
-
-    h3 {
-        @extend %estiloh1;
-        font-size: 20px;
-    }
-
-    p {
-        @extend %estilop;
-    }
-
-
-
 }

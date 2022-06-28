@@ -11,6 +11,8 @@ Cambios en general,
 
 5)Se agrega mixin (se agrega en  botones y formularios)
 
+6)Se agrega Sitemap
+
 
 <<<<<<<<<<<<<<<<<<<INDEX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -61,4 +63,4 @@ palabras "sublime cosas, sublimación,quienes somos, conctatanos,referencias"
 2)Se agrega etiqueta meta name "description"
 " Contactanos y sacate todas las dudas y consultas que tengas, sublime cosas esta siempre a tu disposición."
 
-3)Se agrega title " Sublime - Envios"
+3)Se agrega title " Sublime - Contacto"

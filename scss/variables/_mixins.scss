@@ -19,3 +19,15 @@
     color: $colorLetra;
     font-size: 15px;
 }
+
+@mixin formulario ($colorBorde, $colorLetra) {
+
+    padding: 5px;
+    margin: 10px;
+    border: solid 2px;
+    border-color: $colorBordee;
+    border-radius: 8px;
+    color: $colorLetra;
+}
+
+

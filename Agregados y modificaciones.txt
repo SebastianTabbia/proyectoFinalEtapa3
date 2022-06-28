@@ -52,3 +52,13 @@ palabras "sublime cosas, sublimación, envios a todo el pais, express, normal, g
 " Podrás eligir entre envio prioritario, express o el que mas te convenga."
 
 3)Se agrega title " Sublime - Envios"
+
+<<<<<<<<<<<<<<<<<<<CONTACTO>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1)Se agrega etiqueta meta name "keywords"
+palabras "sublime cosas, sublimación,quienes somos, conctatanos,referencias"
+
+2)Se agrega etiqueta meta name "description"
+" Contactanos y sacate todas las dudas y consultas que tengas, sublime cosas esta siempre a tu disposición."
+
+3)Se agrega title " Sublime - Envios"

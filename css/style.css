@@ -24,7 +24,7 @@
   text-align: justify;
   margin-top: 20px; }
 
-.primeraSeccion h1, .primeraSeccion2 h1, .primeraSeccion4 h1 {
+.primeraSeccion h1, .primeraSeccion2 h1, .primeraSeccion4 h1, .primeraSeccion5 h1 {
   display: flex;
   font-size: 40px;
   font-style: bold;
@@ -253,6 +253,15 @@
   grid-area: primeraSeccion2;
   display: flex;
   flex-direction: column; }
+  .primeraSeccion2 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 30px; }
   .primeraSeccion2 h1 {
     align-items: center; }
   .primeraSeccion2 section {
@@ -432,3 +441,82 @@
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 20px; }
+
+.grilla5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0fr 1fr 0fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header header header" "primeraSeccion5 primeraSeccion5 primeraSeccion5 primeraSeccion5" "footer footer footer footer"; }
+
+.primeraSeccion5 {
+  grid-area: primeraSeccion5;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("https://res.cloudinary.com/daieukhdg/image/upload/v1656448475/Proyecto%20Sublime/sublime_zsdsdsdi_zbfmtu.png"); }
+  .primeraSeccion5 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 4px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: rgba(36, 36, 36, 0.74);
+    margin-bottom: 30px; }
+  .primeraSeccion5 h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .primeraSeccion5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .primeraSeccion5 input {
+    padding: 5px;
+    margin: 10px;
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 8px;
+    color: black; }
+  .primeraSeccion5 .formulario {
+    height: 200px;
+    width: 92%;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: blue; }
+  .primeraSeccion5 .boton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: #d3cece;
+    background-color: grey;
+    color: black;
+    width: 90%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: blue; }
+  .primeraSeccion5 .boton:hover {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }

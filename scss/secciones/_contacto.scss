@@ -1,0 +1,81 @@
+.grilla5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr 0fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header header"
+        "primeraSeccion5 primeraSeccion5 primeraSeccion5 primeraSeccion5"
+        "footer footer footer footer";
+}
+
+.primeraSeccion5 {
+    grid-area: primeraSeccion5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://res.cloudinary.com/daieukhdg/image/upload/v1656448475/Proyecto%20Sublime/sublime_zsdsdsdi_zbfmtu.png');
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid 4px;
+        border-radius: 20px;
+        border-color: blue;
+        background-color: rgba(36, 36, 36, 0.74);
+        margin-bottom: 30px;
+
+    }
+
+    h1 {
+        @extend %estiloh1;
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    input {
+        @include formulario (blue, black);
+    }
+
+    .formulario {
+        height: 200px;
+        width: 92%;
+        border-radius: 8px;
+        border: solid 2px;
+        border-color: blue;
+    }
+
+    .boton {
+        @include btn-sumarAlCarrito(grey, black);
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-color: blue;
+    }
+
+    .boton:hover {
+        @include btn-hover(blue, white);
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

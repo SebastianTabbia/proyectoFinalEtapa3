@@ -9,7 +9,7 @@ Cambios en general,
 
 4)Se agrega Extend (h1,h2,h3 y P)
 
-5)Se agrega mixin
+5)Se agrega mixin (se agrega en  botones y formularios)
 
 
 <<<<<<<<<<<<<<<<<<<INDEX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -42,3 +42,13 @@ palabras "sublime cosas, sublimación, tazas,logos,importada,magica,glitter"
 " Podrás eligir entre una variedad de tazas para realizar tus diseños preferidos."
 
 3)Se agrega title " Sublime - tazas"
+
+<<<<<<<<<<<<<<<<<<<ENVIOS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1)Se agrega etiqueta meta name "keywords"
+palabras "sublime cosas, sublimación, envios a todo el pais, express, normal, gratis"
+
+2)Se agrega etiqueta meta name "description"
+" Podrás eligir entre envio prioritario, express o el que mas te convenga."
+
+3)Se agrega title " Sublime - Envios"

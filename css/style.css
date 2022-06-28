@@ -201,7 +201,10 @@
   grid-template-rows: 0fr 1fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "primeraSeccion primeraSeccion primeraSeccion primeraSeccion" "segundaSeccion segundaSeccion segundaSeccion segundaSeccion" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "primeraSeccion primeraSeccion primeraSeccion primeraSeccion"
+ "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
+ "footer footer footer footer"; }
 
 .primeraSeccion {
   grid-area: primeraSeccion;
@@ -246,7 +249,9 @@
   grid-template-rows: 0fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2"
+ "footer footer footer footer"; }
 
 .primeraSeccion2 {
   grid-area: primeraSeccion2;
@@ -321,7 +326,9 @@
   grid-template-rows: 0fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2"
+ "footer footer footer footer"; }
 
 .grilla4 {
   display: grid;
@@ -329,7 +336,10 @@
   grid-template-rows: 0fr 1fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "primeraSeccion4 primeraSeccion4 primeraSeccion4 primeraSeccion4" "segundaSeccion4 segundaSeccion4 segundaSeccion4 segundaSeccion4" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "primeraSeccion4 primeraSeccion4 primeraSeccion4 primeraSeccion4"
+ "segundaSeccion4 segundaSeccion4 segundaSeccion4 segundaSeccion4"
+ "footer footer footer footer"; }
 
 .primeraSeccion4 {
   grid-area: primeraSeccion4;
@@ -337,7 +347,6 @@
   flex-direction: column;
   justify-content: center; }
   .primeraSeccion4 .container {
-    background-color: blue;
     margin: 0 auto;
     border: solid 4px;
     border-radius: 4px; }

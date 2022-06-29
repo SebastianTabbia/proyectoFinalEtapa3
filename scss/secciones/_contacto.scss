@@ -1,12 +1,13 @@
 .grilla5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr 1fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
         "header header header header"
         "primeraSeccion5 primeraSeccion5 primeraSeccion5 primeraSeccion5"
+        "segundaSeccion5 segundaSeccion5 segundaSeccion5 segundaSeccion5"
         "footer footer footer footer";
 }
 
@@ -26,7 +27,7 @@
         justify-content: center;
         border: solid 4px;
         border-radius: 20px;
-        border-color: blue;
+        border-color: #023157;
         background-color: rgba(36, 36, 36, 0.74);
         margin-bottom: 30px;
 
@@ -35,7 +36,7 @@
     h1 {
         @extend %estiloh1;
         text-align: center;
-        background-color: blue;
+        background-color: #023157;
         color: white;
         padding: 10px;
         margin-top: 30px;
@@ -51,7 +52,7 @@
     }
 
     input {
-        @include formulario (blue, black);
+        @include formulario (#023157, black);
     }
 
     .formulario {
@@ -59,7 +60,7 @@
         width: 92%;
         border-radius: 8px;
         border: solid 2px;
-        border-color: blue;
+        border-color: #023157;
     }
 
     .boton {
@@ -68,14 +69,89 @@
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        border-color: blue;
+        border-color: #023157;
     }
 
     .boton:hover {
-        @include btn-hover(blue, white);
+        @include btn-hover(#023157, white);
         width: 50%;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+
+.segundaSeccion5 {
+    grid-area: segundaSeccion5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #023157;
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+    .form {
+        width: 100%;
+        height: 50px;
+        max-width: 400px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+        margin: 30px;
+    }
+
+    .form input {
+        width: 100%;
+        height: 100%;
+        background: none;
+        color: white;
+        padding-top: 20px;
+        border: none;
+        outline: 0px;   
+}
+
+    .form .lbl-nombre {
+        position: absolute;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid #c7c7c7;
+    }
+
+    .form .lbl-nombre:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom:-1px;
+        width: 100%;
+        height: 100%;
+        border-bottom: 3px solid white;
+        transform: translateX(-100%);
+        transition: all 0.3s ease;
+    }
+
+    .text-nomb {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        transition: all 0.3s ease;
+        color: white;
+    }
+
+    .form input:focus+.lbl-nombre .text-nomb,
+    .form input:valid+.lbl-nombre .text-nomb {
+        transform: translateY(-150%);
+        font-size: 14px;
+        color: white;
+    }
+
+    .form input:focus+.lbl-nombre:after,
+    .form input:valid+.lbl-nombre:after{
+        transform: translateX(0%);
     }
 }

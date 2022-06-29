@@ -46,6 +46,13 @@
         color:white;
         font-weight: 900px;
     }
+
+    .zoom{
+        transition: transform .5s;
+    }
+    .zoom:hover{
+    transform: scale(1.1); 
+    }
 }
 
 @media (max-width: 1024px) {

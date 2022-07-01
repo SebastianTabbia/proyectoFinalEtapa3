@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-.segundaSeccion h2, .segundaSeccion4 h2 {
+.segundaSeccion h2, .primeraSeccion4 h2 {
   font-size: 35px;
   font-style: bold;
   align-items: center;
@@ -20,7 +20,7 @@
   margin-top: 30px;
   text-align: center; }
 
-.segundaSeccion p, .segundaSeccion4 p {
+.segundaSeccion p, .primeraSeccion4 p {
   text-align: justify;
   margin-top: 20px; }
 
@@ -305,7 +305,7 @@
   grid-template-rows: 0fr 1fr 0fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2" "segundaSeccion2 segundaSeccion2 segundaSeccion2 segundaSeccion2" "footer footer footer footer"; }
 
 .primeraSeccion2 {
   grid-area: primeraSeccion2;
@@ -407,6 +407,14 @@
 .zoom:hover {
   transform: scale(1.1); }
 
+.segundaSeccion2 {
+  grid-area: segundaSeccion2;
+  max-width: 90%; }
+  .segundaSeccion2 img {
+    width: 700px;
+    max-width: 90%;
+    margin-bottom: 30px; }
+
 .grilla3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -426,11 +434,17 @@
 .primeraSeccion4 {
   grid-area: primeraSeccion4;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  background-image: url("https://res.cloudinary.com/daieukhdg/image/upload/v1656081426/Proyecto%20Sublime/sublime_zrsqwi.png"); }
+  width: 90%;
+  margin: 0 auto;
+  align-items: flex-start; }
+  .primeraSeccion4 .envio {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px; }
   .primeraSeccion4 .container {
     display: flex;
     flex-direction: column;
@@ -460,7 +474,7 @@
     border-radius: 8px;
     color: black; }
   .primeraSeccion4 .formulario {
-    height: 200px;
+    height: 300px;
     width: 92%;
     border-radius: 8px;
     border: solid 2px;
@@ -491,36 +505,37 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px; }
+  .primeraSeccion4 h2 {
+    text-align: center;
+    background-color: #023157;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px; }
+  .primeraSeccion4 p {
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 4px;
+    border-color: #023157;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto; }
+  .primeraSeccion4 img {
+    border-radius: 20px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 30px; }
 
 .segundaSeccion4 {
   grid-area: segundaSeccion4;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-image: url("https://res.cloudinary.com/daieukhdg/image/upload/v1656081426/Proyecto%20Sublime/sublime_zrsqwi.png"); }
-  .segundaSeccion4 h2 {
-    text-align: center;
-    background-color: #023157;
-    color: white;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px; }
-  .segundaSeccion4 p {
-    width: 50%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    border: solid 4px;
-    border-color: #023157;
-    text-align: center;
-    font-size: 20px; }
-  .segundaSeccion4 img {
-    max-width: 500px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 20px; }
+  align-items: center; }
 
 .grilla5 {
   display: grid;

@@ -7,6 +7,7 @@
     grid-template-areas:
         "header header header header"
         "primeraSeccion2 primeraSeccion2 primeraSeccion2 primeraSeccion2"
+        "segundaSeccion2 segundaSeccion2 segundaSeccion2 segundaSeccion2"
         "footer footer footer footer";
 }
 
@@ -126,4 +127,14 @@
 }
 .zoom:hover{
 transform: scale(1.1); 
+}
+
+.segundaSeccion2{
+    grid-area: segundaSeccion2;
+    max-width: 90%;
+img{
+    width: 700px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
 }

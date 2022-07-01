@@ -382,7 +382,8 @@
     flex-direction: row;
     width: 90%;
     margin: 0 auto;
-    border: none; }
+    border: none;
+    justify-content: space-between; }
   .primeraSeccion2 .letra {
     margin: 0;
     border: none;

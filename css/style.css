@@ -335,9 +335,9 @@
     align-items: center;
     border: solid 4px;
     border-color: #023157;
-    border-radius: 20px;
+    border-radius: 24px;
     margin: 30px;
-    background-color: #023157; }
+    background-color: white; }
   .primeraSeccion2 img {
     border-radius: 20px; }
   .primeraSeccion2 input {
@@ -361,39 +361,50 @@
   .primeraSeccion2 span {
     margin: 10px;
     width: 90%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: bold;
-    border: solid 1px;
-    border-color: white;
-    padding: 5px;
-    border-radius: 4px; }
-  .primeraSeccion2 span:hover {
-    margin: 10px;
-    width: 90%;
-    background-color: rgba(192, 188, 188, 0.185);
-    color: white;
+    background-color: white;
+    color: #023157;
     text-align: center;
     font-size: bold;
     border: solid 3px;
-    border-color: white;
+    border-color: #023157;
     padding: 5px;
-    border-radius: 4px; }
+    border-radius: 4px;
+    font-family: sans-serif; }
+  .primeraSeccion2 .cajaTalles {
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    margin: 0 auto;
+    border: #023157 solid 3px;
+    border-radius: 2px; }
+  .primeraSeccion2 .talles {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    border: none; }
+  .primeraSeccion2 .letra {
+    margin: 0;
+    border: none;
+    background: none;
+    font-size: bold;
+    padding: 0; }
+  .primeraSeccion2 .btnCarrito {
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    border: none;
+    margin: 0 auto; }
+  .primeraSeccion2 .btnCarrito i {
+    color: #023157;
+    margin-right: 4px;
+    margin-left: 3px; }
 
 .zoom {
   transition: transform .5s; }
 
 .zoom:hover {
   transform: scale(1.1); }
-
-@media (max-width: 768px) {
-  .primeraSeccion2 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center; } }
 
 .grilla3 {
   display: grid;
@@ -630,7 +641,7 @@
     bottom: -1px;
     width: 100%;
     height: 100%;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
     transform: translateX(-100%);
     transition: all 0.3s ease; }
   .segundaSeccion5 .text-nomb {

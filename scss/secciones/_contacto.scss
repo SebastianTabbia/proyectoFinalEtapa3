@@ -1,84 +1,13 @@
 .grilla5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0fr 1fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
         "header header header header"
-        "primeraSeccion5 primeraSeccion5 primeraSeccion5 primeraSeccion5"
         "segundaSeccion5 segundaSeccion5 segundaSeccion5 segundaSeccion5"
         "footer footer footer footer";
-}
-
-.primeraSeccion5 {
-    grid-area: primeraSeccion5;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url('https://res.cloudinary.com/daieukhdg/image/upload/v1656448475/Proyecto%20Sublime/sublime_zsdsdsdi_zbfmtu.png');
-
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border: solid 4px;
-        border-radius: 20px;
-        border-color: #023157;
-        background-color: rgba(36, 36, 36, 0.74);
-        margin-bottom: 30px;
-
-    }
-
-    h1 {
-        @extend %estiloh1;
-        text-align: center;
-        background-color: #023157;
-        color: white;
-        padding: 10px;
-        margin-top: 30px;
-        border-radius: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    input {
-        @include formulario (#023157, black);
-    }
-
-    .formulario {
-        height: 200px;
-        width: 92%;
-        border-radius: 8px;
-        border: solid 2px;
-        border-color: #023157;
-    }
-
-    .boton {
-        @include btn-sumarAlCarrito(grey, black);
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-color: #023157;
-    }
-
-    .boton:hover {
-        @include btn-hover(#023157, white);
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 }
 
 .segundaSeccion5 {
@@ -88,6 +17,7 @@
     justify-content: center;
     align-items: center;
     background-color: #023157;
+    height: 90vh;
 
 div{
     display: flex;

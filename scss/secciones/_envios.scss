@@ -1,7 +1,7 @@
 .grilla4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0fr 1fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr 0.5fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -163,8 +163,81 @@
         box-shadow: 0 5px 10px black;
     }
 
-    p{
+    p {
         text-align: center;
         margin-top: 30px;
     }
+}
+
+@media (max-width:1024px) {
+    .primeraSeccion4 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .primeraSeccion4 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .segundaSeccion4{
+        height: 100%;
+    }
+
+    .segundaSeccion4 h2{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:590px) {
+.segundaSeccion4 iframe {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+}
+
+@media (max-width:590px) {
+    .primeraSeccion4 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formulario {
+        height: 300px;
+        width: 85%;
+        border-radius: 8px;
+        border: solid 2px;
+        border-color: #023157;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:425px) {
+    .primeraSeccion4 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+
+    .primeraSeccion4 img {
+        max-width: 342px;
+}
+.segundaSeccion4 h2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+}
+
+@media (max-width:375px) {
+    .primeraSeccion4 img {
+        max-width: 300px;
+}
 }

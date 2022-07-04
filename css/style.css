@@ -71,7 +71,9 @@
   .nav .zoom {
     transition: transform .5s; }
   .nav .zoom:hover {
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    border-radius: 30px;
+    padding: 0; }
 
 @media (max-width: 1024px) {
   .nav {
@@ -172,8 +174,7 @@
     text-decoration: none; }
   .nav a:hover {
     color: white;
-    font-weight: 900px;
-    box-shadow: 0 5px 10px black; } }
+    font-weight: 900px; } }
 
 .footer {
   grid-area: footer;
@@ -678,7 +679,8 @@
     color: white;
     padding-top: 20px;
     border: none;
-    outline: 0px; }
+    outline: 0px;
+    text-transform: uppercase; }
   .segundaSeccion5 .form .lbl-nombre {
     position: absolute;
     bottom: 0;
